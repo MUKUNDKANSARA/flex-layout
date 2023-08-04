@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex layout</title>
+    <link rel="stylesheet" href="CSS/flex.css">
+    <style>
+        .main {
+            width: 100%;
+            height: 500px;
+            border: 2px solid;
+            background-image: url(IMG/house.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .opacity{
+            width: 100%;
+            height: 500px;
+            opacity: 0.7;
+            background-color: black;
+            /* position: absolute; */
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- main1 start -->
+    
+    <div class="main">
+        <div class="opacity"></div>
+        <div class="header">
+            <h1 style="padding: 5px 120px;">PLAXTON</h1>
+            <div class="li"><ul>
+                <a href="#" class="active"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Service</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+        </div>
+        </div>
+        <div class="text">
+            <h1>Flexbox Layout</h1>
+            <p>Responsive Web Design</p>
+            <button class="btn">Contact Us</button>
+        </div>
+    </div>
+
+    <!-- main1 end -->
+    <!-- main2 start -->
+    <div class="main2">
+        <div class="heading"><h1>About Us</h1></div>
+        <div class="content">
+        <div class="left"><img src="IMG/house1.avif" alt="#" width="100%" height="300px" ></div>
+        <div class="right">
+            <h1>About Our Company</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse assumenda corporis consectetur nemo rem voluptatem quos velit saepe a ea!</p>
+            <button>LEARN MORE</button>
+        </div>
+        </div>  
+    </div>
+    <!-- main2 end -->
+    <div class="main3" style="background-color:gainsboro;">
+        <div class="header2"><h1>Services</h1></div>
+        <div class="sub">
+        <div class="subdiv"><img src="IMG/monitor-64.png" alt="#"><h1>Web Design</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eius facere delectus!</p></div>
+        <div class="subdiv"><img src="IMG/economy.png" alt="#" width="64px" height="64px"><h1>Marketing</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eius facere delectus!</p></div>
+        <div class="subdiv"><img src="IMG/illustration.png" alt="#" width="64px" height="64px"><h1>Graphics</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eius facere delectus!</p></div>
+    </div>
+    </div>
+    <div class="main3">
+        <div class="header2"><h1>CONTACT</h1></div>
+        <div class="sub">
+        <div class="subdiv"><img src="IMG/placeholder.png" alt="#" width="64px" height="64px"><p>247, Westwood Lane,</p><p>Blackfen, UK</p></div>
+        <div class="subdiv"><img src="IMG/phone.png" alt="#" width="64px" height="64px"><p>+123 456 789</p><p>+789 456 123</p></div>
+        <div class="subdiv"><img src="IMG/message.png" alt="#" width="64px" height="64px"><p>info@saffrone.com</p><p>yourdomain@website.com</p></div>
+    </div>
+    </div>
+    <div class="footer">
+        <p>All Right Reserved By Your</p>
+    </div>
+</body>
+
+</html>
